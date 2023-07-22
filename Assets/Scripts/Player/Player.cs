@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GlobalScripts;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -79,6 +80,16 @@ namespace Player
                 movementVec.x += 0.01f;
             }
 
+            if (Input.GetKeyDown("p"))
+            {
+                DialogHandler.Current.GetNextDialog();
+            }
+
+            if (Input.GetKeyDown("space"))
+            {
+                DialogHandler.Current.TriggerNextInput();
+            }
+            
             if (rotate > -1)
             {
                 var eulerAngles = playerTexture.transform.eulerAngles;
