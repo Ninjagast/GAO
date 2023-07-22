@@ -1,0 +1,4 @@
+﻿0;0;Jonkjeeeeeeeeeeeeeeeeeee
+0;1;Dit is een gesprek
+1;0;Dit is een nieuw gesprek
+1;2;Per persson kan ik generaten
